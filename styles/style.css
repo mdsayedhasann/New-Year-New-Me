@@ -55,12 +55,18 @@ p{
 .bg-primary {
     background-color: #F15B22;
 }
+.bg-white{
+    background-color: #fff;
+}
 
 .btn {
-    padding: 20px;
+    padding: 15px 20px;
+    font-size: 18px;
     border: 0;
     font-weight: bold;
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 5px;
+    margin: 15px 0;
 }
 
 .flex{
@@ -140,4 +146,17 @@ p{
 .plan-description{
     font-size: 20px;
     padding: 10px 0;
+}
+
+/* Call CSS */
+.call-container{
+    background-image: url(../assets/images/watch.png), url(../assets/images/gradient3.png);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+
+}
+.call-title{
+    font-size: 36px;
 }
