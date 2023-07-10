@@ -1,0 +1,132 @@
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+     font-family: 'Nunito', sans-serif;
+     font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+section{
+    padding: 40px 0;
+}
+/* /////////////          Common Styles             /////////////// */
+
+main {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 14px;
+    color: #444343;
+    line-height: 28px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.primary-color {
+    color: #F15B22;
+}
+
+.secondary-color {}
+
+.white-color {
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #F15B22;
+}
+
+.btn {
+    padding: 20px;
+    border: 0;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;;
+}
+
+.flex{
+    display: flex;
+}
+
+.section-title{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* Header Styles  */
+
+/* //////////      Banner       ////////////  */
+.banner-container {
+    background-image: url(../assets/images/banner/banner1.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 120px;
+
+}
+.banner-content{
+    margin-top: 100px;
+}
+.banner-title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+}
+.banner-description{
+    margin: 20px 0;
+}
+
+
+
+
+/* /////////       FAILURE STYLE    //////////// */
+
+.failure-container{
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+}
+.failure-image img{
+    width: 450px;
+}
+
+.failure-info p{
+    padding: 20px 0;
+}
+.fa-check{
+    color: #16D887;
+    padding-right: 10px;
+}
+.failure-info > ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+/* ////////       PLANS STYLE         ////////// */
+
+.plans{
+    justify-content: space-around;
+    padding: 30px 0;
+}
